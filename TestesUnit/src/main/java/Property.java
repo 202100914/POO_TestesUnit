@@ -66,6 +66,10 @@ public class Property {
 
     @Override
     public String toString() {
-        return null;
+        String expected = "Propriedade:\n" +
+                "Modelo: " + model +  "\n" +
+                "Preço: " + price +  " Euros";
+
+        return expected;
     }
 }
